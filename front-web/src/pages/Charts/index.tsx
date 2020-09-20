@@ -23,7 +23,8 @@ const initialPieData = {
     series: []
 }
 
-const BASE_URL = 'http://localhost:8080'
+//pronto para produção
+const BASE_URL = 'https://devsup-diego.herokuapp.com'
 
 
 const Charts = () => {
