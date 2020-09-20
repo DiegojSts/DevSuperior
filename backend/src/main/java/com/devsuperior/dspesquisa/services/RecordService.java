@@ -39,8 +39,6 @@ public class RecordService {
 		entity = repository.save(entity);
 		return new RecordDTO(entity);
 		
-		
-		
 	}
 
 	@Transactional(readOnly = true)
